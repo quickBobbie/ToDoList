@@ -1,0 +1,59 @@
+<header>
+  <h1>ToDo List</h1>
+</header>
+<div class="container">
+  <aside>
+    <h3>Todo Lists</h3>
+    <div class="todo">
+      <div class="todo-title">
+        <span>TodoList Title</span>
+        <div class="title-ctrls">
+          <div class="todo-button">Edit</div>
+          <div class="todo-button">Delete</div>
+        </div>
+      </div>
+      <form *ngIf="vis">
+        <div class="input">
+          <label>New name:</label>
+          <input type="text" name="title">
+        </div>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </aside>
+  <section>
+    <h3>Todo Tasks</h3>
+    <div class="todo">
+      <div class="todo-title">
+        <span>TodoTask Title</span>
+        <div class="title-ctrls">
+          <div class="todo-button">Edit</div>
+          <div class="todo-button">Delete</div>
+        </div>
+      </div>
+      <form>
+        <div class="input">
+          <label>New name:</label>
+          <input type="text" name="title">
+        </div>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+    <div class="todo">
+      <div class="todo-title">
+        <span>TodoTask Title</span>
+        <div class="title-ctrls">
+          <div class="todo-button">Edit</div>
+          <div class="todo-button">Delete</div>
+        </div>
+      </div>
+      <form>
+        <div class="input">
+          <label>New name:</label>
+          <input type="text" name="title">
+        </div>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+  </section>
+</div>
